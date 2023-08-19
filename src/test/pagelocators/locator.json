@@ -1,0 +1,7 @@
+{
+    "google": {
+        "searchTxtBoxLoc": "//input[@title='Google Search']",
+        "searchResultLoc": "//div[text()='AgileEngine']"
+    },
+    "homepage": {}
+}

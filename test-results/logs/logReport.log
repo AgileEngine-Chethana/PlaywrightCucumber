@@ -1,0 +1,15 @@
+undefined info: Aug-19-2023 21:54:01: 	chrome
+undefined info: Aug-19-2023 21:54:01: 	chrome
+undefined info: Aug-19-2023 21:54:01: 	chrome
+undefined info: Aug-19-2023 21:54:01: 	undefined
+undefined info: Aug-19-2023 21:54:01: 	chrome
+undefined info: Aug-19-2023 21:54:01: 	undefined
+undefined info: Aug-19-2023 21:54:02: 	START SCENARIO: Navigate AE official Web page
+undefined info: Aug-19-2023 21:54:02: 	AE Website
+undefined info: Aug-19-2023 21:54:03: 	Google Page is loaded
+undefined info: Aug-19-2023 21:54:03: 	Step - Open the Google home page- PASSED
+undefined info: Aug-19-2023 21:54:03: 	Step - Validate the title "Google" of the Google search page- PASSED
+undefined info: Aug-19-2023 21:54:04: 	Step - Enter the Search text "Agile Engine" in the search text box and Validate the search text- PASSED
+undefined info: Aug-19-2023 21:54:04: 	Step - Validate the Search result displayed- PASSED
+undefined info: Aug-19-2023 21:54:34: 	Step - Search for AE Link "https://agileengine.com/" and Click on it- FAILED
+undefined info: Aug-19-2023 21:54:38: 	END SCENARIO: Navigate AE official Web page
