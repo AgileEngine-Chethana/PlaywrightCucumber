@@ -20,3 +20,11 @@ Given('Open the Google home page', async function () {
     await this.googlePage.GoTo();
     logger.info("Google Page is loaded")
 });
+
+
+Given('Open the AE home page {string}', async function (titleTxt) {
+    this.poManager = new POManager(page, locatorData, testData);
+    this.homePage = this.poManager.getHomePage();
+    await this.homePage.GoTo(titleTxt);
+    logger.info("AE HomePage is loaded")
+});
