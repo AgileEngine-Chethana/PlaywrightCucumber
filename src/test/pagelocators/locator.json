@@ -3,5 +3,10 @@
         "searchTxtBoxLoc": "//input[@title='Google Search']",
         "searchResultLoc": "//div[text()='AgileEngine']"
     },
-    "homepage": {}
+    "homepage": {
+        "getInTouch": "#menu-item-12765 > a",
+        "fullName": "(//input[@placeholder='Full Name *'])[1]",
+        "email": "(//input[@type='email'])[1]",
+        "company": "(//input[@placeholder='Company *'])[1]"
+    }
 }
