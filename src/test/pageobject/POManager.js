@@ -6,11 +6,16 @@ class POManager {
         this.locatorData = locatorData;
         this.testdata = testdata
         this.googlepage = new GooglePage(this.page, this.locatorData, this.testdata)
+        this.homepage = new HomePage(this.page, this.locatorData, this.testdata)
     }
 
     getGooglePage() {
         return this.googlepage;
     }
+    getHomePage() {
+        return this.homepage;
+    }
+
 
 }
 module.exports = { POManager };
